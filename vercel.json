@@ -6,7 +6,11 @@
         "use": "@vercel/php"
       },
       {
-        "src": "public/**/*",
+        "src": "public/styles/**/*",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "public/pages/**/*",
         "use": "@vercel/static"
       }
     ],

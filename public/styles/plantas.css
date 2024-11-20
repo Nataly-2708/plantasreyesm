@@ -1,0 +1,16 @@
+/* Clase personalizada para el botón */
+.btn-custom {
+    background-color: #007BFF; /* Cambia al color deseado */
+    color: rgb(255, 255, 255); /* Color del texto */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Tamaño del botón */
+    font-size: 16px; /* Tamaño del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover para un efecto interactivo */
+  .btn-custom:hover {
+    background-color: #0056b3; /* Color al pasar el ratón */
+  }
+  
